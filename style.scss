@@ -1,0 +1,255 @@
+@import "variables";
+@import "mixin";
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 20px;
+}
+
+body {
+  font-family: montserrat;
+
+  nav {
+    height: 80px;
+    width: 100%;
+
+    ul {
+      float: right;
+      margin-right: 80px;
+
+      @include mobile {
+        display: none;
+      }
+
+      li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 45px;
+        font-family: "Josefin Sans", sans-serif;
+        color: black;
+        font-size: 13px;
+
+        a {
+          color: black;
+        }
+      }
+    }
+
+    .logo {
+      font-size: 35px;
+      line-height: 80px;
+      font-weight: bold;
+      padding: 0 100px;
+      font-family: "Josefin Sans", sans-serif;
+    }
+  }
+
+  .box1 {
+    line-height: 23px;
+
+    width: 50%;
+
+    h2 {
+      margin-left: 67px;
+      font-size: 4rem;
+      margin-top: 20px;
+
+      @include mobile {
+        min-width: 19rem;
+        margin-left: 9px;
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      margin-left: 103px;
+
+      @include mobile {
+        margin-left: 29px;
+        min-width: 20rem;
+      }
+    }
+  }
+
+  .box2 {
+    img {
+      width: 100%;
+      padding: 36px 114px 0px 99px;
+
+      @include mobile {
+        width: 100%;
+        padding: 17px 20px 5px 20px;
+      }
+    }
+  }
+
+  .box3 {
+    display: flex;
+    justify-content: center;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 21px;
+
+    @include mobile {
+      font-size: 12px;
+    }
+
+    .item2 {
+      color: rgb(192, 192, 192);
+      margin: 30px;
+      padding: 15px;
+    }
+
+    .item1 {
+      color: black;
+      margin: 30px;
+      padding: 15px;
+    }
+  }
+
+  .box4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+
+    @include mobile {
+      margin: 23px 19px 53px 19px;
+    }
+
+    h3 {
+      font-size: 3rem;
+
+      @include mobile {
+        font-size: 1rem;
+      }
+    }
+
+    margin: 39px 103px 43px 95px;
+
+    .picture {
+      .picture1 {
+        width: 11rem;
+
+        @include mobile {
+          width: 90px;
+        }
+      }
+    }
+
+    .child2:hover {
+      background-color: blueviolet;
+      border-radius: 19px;
+      width: 30px;
+      padding: 20px;
+    }
+
+    .child1,
+    .child2 {
+      width: 2.5rem;
+
+      @include mobile {
+        width: 20px;
+      }
+    }
+  }
+
+  .box5 {
+    .row {
+      width: 93%;
+      margin-left: 5rem;
+
+      @include mobile {
+        width: 62%;
+        margin-left: 5rem;
+      }
+    }
+
+    .card-body {
+      font-family: "Josefin Sans", sans-serif;
+      padding: 2.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .box6 {
+    .row {
+      width: 93%;
+      margin-left: 5rem;
+
+      @include mobile {
+        width: 62%;
+        margin-left: 5rem;
+      }
+
+      .card-body {
+        font-family: "Josefin Sans", sans-serif;
+        padding: 2.25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  .box7 {
+    img {
+      width: 100%;
+      padding: 36px 114px 0px 99px;
+
+      @include mobile {
+        width: 100%;
+        padding: 17px 20px 5px 20px;
+      }
+    }
+  }
+
+  .box8 {
+    height: 187px;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 14px;
+
+    h2 {
+      @include mobile {
+        font-size: 26px;
+      }
+    }
+
+    p {
+      @include mobile {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .box9 {
+    padding: 34px 40px 37px 63px;
+    background-color: rgb(255, 228, 233);
+    margin: 20px 12px 12px 11px;
+    text-align: center;
+
+    .final {
+      display: flex;
+
+      .input {
+        width: 60%;
+      }
+
+      .button {
+        background-color: black;
+        color: white;
+        padding: 0px 30px 0px 30px;
+      }
+    }
+  }
+}

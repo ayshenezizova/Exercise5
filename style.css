@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.icon {
+  width: 20px;
+}
+
+body {
+  font-family: montserrat;
+}
+
+body nav {
+  height: 80px;
+  width: 100%;
+}
+
+body nav ul {
+  float: right;
+  margin-right: 80px;
+}
+
+@media (max-width: 767px) {
+  body nav ul {
+    display: none;
+  }
+}
+
+body nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 45px;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  font-size: 13px;
+}
+
+body nav ul li a {
+  color: black;
+}
+
+body nav .logo {
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+  padding: 0 100px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body .box1 {
+  line-height: 23px;
+  width: 50%;
+}
+
+body .box1 h2 {
+  margin-left: 67px;
+  font-size: 4rem;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  body .box1 h2 {
+    min-width: 19rem;
+    margin-left: 9px;
+    font-size: 2rem;
+  }
+}
+
+body .box1 p {
+  margin-left: 103px;
+}
+
+@media (max-width: 767px) {
+  body .box1 p {
+    margin-left: 29px;
+    min-width: 20rem;
+  }
+}
+
+body .box2 img {
+  width: 100%;
+  padding: 36px 114px 0px 99px;
+}
+
+@media (max-width: 767px) {
+  body .box2 img {
+    width: 100%;
+    padding: 17px 20px 5px 20px;
+  }
+}
+
+body .box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 21px;
+}
+
+@media (max-width: 767px) {
+  body .box3 {
+    font-size: 12px;
+  }
+}
+
+body .box3 .item2 {
+  color: silver;
+  margin: 30px;
+  padding: 15px;
+}
+
+body .box3 .item1 {
+  color: black;
+  margin: 30px;
+  padding: 15px;
+}
+
+body .box4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 39px 103px 43px 95px;
+}
+
+@media (max-width: 767px) {
+  body .box4 {
+    margin: 23px 19px 53px 19px;
+  }
+}
+
+body .box4 h3 {
+  font-size: 3rem;
+}
+
+@media (max-width: 767px) {
+  body .box4 h3 {
+    font-size: 1rem;
+  }
+}
+
+body .box4 .picture .picture1 {
+  width: 11rem;
+}
+
+@media (max-width: 767px) {
+  body .box4 .picture .picture1 {
+    width: 90px;
+  }
+}
+
+body .box4 .child2:hover {
+  background-color: blueviolet;
+  border-radius: 19px;
+  width: 30px;
+  padding: 20px;
+}
+
+body .box4 .child1,
+body .box4 .child2 {
+  width: 2.5rem;
+}
+
+@media (max-width: 767px) {
+  body .box4 .child1,
+  body .box4 .child2 {
+    width: 20px;
+  }
+}
+
+body .box5 .row {
+  width: 93%;
+  margin-left: 5rem;
+}
+
+@media (max-width: 767px) {
+  body .box5 .row {
+    width: 62%;
+    margin-left: 5rem;
+  }
+}
+
+body .box5 .card-body {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .box6 .row {
+  width: 93%;
+  margin-left: 5rem;
+}
+
+@media (max-width: 767px) {
+  body .box6 .row {
+    width: 62%;
+    margin-left: 5rem;
+  }
+}
+
+body .box6 .row .card-body {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .box7 img {
+  width: 100%;
+  padding: 36px 114px 0px 99px;
+}
+
+@media (max-width: 767px) {
+  body .box7 img {
+    width: 100%;
+    padding: 17px 20px 5px 20px;
+  }
+}
+
+body .box8 {
+  height: 187px;
+  text-align: center;
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  body .box8 h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .box8 p {
+    font-size: 13px;
+  }
+}
+
+body .box9 {
+  padding: 34px 40px 37px 63px;
+  background-color: #ffe4e9;
+  margin: 20px 12px 12px 11px;
+  text-align: center;
+}
+
+body .box9 .final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .box9 .final .input {
+  width: 60%;
+}
+
+body .box9 .final .button {
+  background-color: black;
+  color: white;
+  padding: 0px 30px 0px 30px;
+}
+/*# sourceMappingURL=style.css.map */
